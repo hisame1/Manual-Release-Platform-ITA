@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuale Post-Vendita Car Connection Box</title>
+    <style>
+        /* --- Global Styles --- */
+        :root {
+            --primary-color: #4a9eff;
+            --bg-color: #1a1a1a;
+            --text-color: #e0e0e0;
+            --border-color: #333333;
+            --card-bg: #252525;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .version-card {
+            background: var(--card-bg);
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .version-title {
+            font-size: 24px;
+            color: #fff;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .version-card + .version-card {
+            margin-top: 30px;
+        }
+
+        .info-row {
+            margin-bottom: 25px;
+        }
+
+        .info-label {
+            font-size: 16px;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        .info-value {
+            font-size: 18px;
+            color: #fff;
+            padding: 12px 16px;
+            background: #1e1e1e;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+        }
+
+        .info-value a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .info-value a:hover {
+            text-decoration: underline;
+        }
+
+        .manual-link-btn {
+            display: block;
+            width: fit-content;
+            margin: 15px auto 0;
+            padding: 12px 24px;
+            background: var(--primary-color);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 15px;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+
+        .manual-link-btn:hover {
+            background: #3a8eef;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(74, 158, 255, 0.3);
+        }
+
+        .update-content {
+            min-height: 80px;
+            font-size: 15px;
+            line-height: 1.8;
+            color: #ccc;
+            white-space: pre-wrap;
+        }
+
+        .update-placeholder {
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="version-card">
+            <h1 class="version-title">Manuale Post-Vendita Car Connection Box</h1>
+
+            <div class="info-row">
+                <div class="info-label">Versione del Manuale:</div>
+                <div class="info-value">1.1.0</div>
+            </div>
+
+            <div class="info-row">
+                <div class="info-label">Contenuto dell'Aggiornamento:</div>
+                <div class="info-value update-content" style="text-align: left; padding-left: 16px;">Aggiornato il modulo Feedback</div>
+                <a href="./V1.1.0(5.6)/index.html" target="_blank" class="manual-link-btn">Link al Manuale Post-Vendita</a>
+            </div>
+        </div>
+
+        <div class="version-card">
+            <h1 class="version-title">Manuale Post-Vendita Car Connection Box</h1>
+
+            <div class="info-row">
+                <div class="info-label">Versione del Manuale:</div>
+                <div class="info-value">1.0.2</div>
+            </div>
+
+            <div class="info-row">
+                <div class="info-label">Contenuto dell'Aggiornamento:</div>
+                <div class="info-value update-content" style="text-align: left; padding-left: 16px;">1.Aggiornato il modulo Istruzioni di Installazione nella sezione 7.4 Aggiornamento Software
+2. Risolto il problema delle pagine vuote durante lo scaricamento del PDF</div>
+                <a href="./V1.0.2(4.30)/index.html" target="_blank" class="manual-link-btn">Link al Manuale Post-Vendita</a>
+            </div>
+        </div>
+
+        <div class="version-card">
+            <h1 class="version-title">Manuale Post-Vendita Car Connection Box</h1>
+
+            <div class="info-row">
+                <div class="info-label">Versione del Manuale:</div>
+                <div class="info-value">1.0.1</div>
+            </div>
+
+            <div class="info-row">
+                <div class="info-label">Contenuto dell'Aggiornamento:</div>
+                <div class="info-value update-content" style="text-align: left; padding-left: 16px;">Prima Rilascio</div>
+                <a href="./V1.0.1(4.24)/index.html" target="_blank" class="manual-link-btn">Link al Manuale Post-Vendita</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
